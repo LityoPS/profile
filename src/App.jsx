@@ -3,6 +3,7 @@ import "./App.css";
 import SunIcon from "./assets/sun.png";
 import MoonIcon from "./assets/moon.png";
 import ProjectGrid from "./ProjectGrid";
+import ProfilePhoto from "./assets/profile.jpg";
 
 function App() {
   const [splashVisible, setSplashVisible] = useState(true);
@@ -126,7 +127,7 @@ function App() {
                 <div className="hero-right">
                   <img
                     className="hero-photo"
-                    src="/profile.jpg"
+                    src={ProfilePhoto}
                     alt="Lityo Putra Sudarso"
                     width="160"
                     height="160"
