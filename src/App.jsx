@@ -126,7 +126,7 @@ function App() {
                 <div className="hero-right">
                   <img
                     className="hero-photo"
-                    src="./public/profile.jpg"
+                    src="/profile.jpg"
                     alt="Lityo Putra Sudarso"
                     width="160"
                     height="160"
